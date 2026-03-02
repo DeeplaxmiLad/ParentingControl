@@ -1,0 +1,19 @@
+.dashboard-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #f1f5f9;
+}
+
+.dashboard-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Mobile First */
+@media (max-width: 768px) {
+  .dashboard-content {
+    padding: 15px;
+  }
+}

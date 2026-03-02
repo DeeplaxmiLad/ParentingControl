@@ -1,0 +1,48 @@
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.activity-card {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.2s ease-in-out;
+}
+
+.activity-card:hover {
+  transform: translateY(-3px);
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.activity-app {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2563eb;
+}
+
+.activity-time {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.activity-body p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.activity-loading,
+.activity-empty {
+  text-align: center;
+  padding: 20px;
+  font-weight: 500;
+  color: #6b7280;
+}

@@ -1,0 +1,27 @@
+.approval-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-group button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-group .reject {
+  background: #ef4444;
+}
