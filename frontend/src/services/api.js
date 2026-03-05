@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://parentingcontrol.onrender.com",
+  baseURL: "https://parentingcontrol.onrender.com/api",
 });
 
 // Attach token automatically
