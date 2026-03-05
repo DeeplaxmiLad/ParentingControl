@@ -8,7 +8,14 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+const cors = require("cors");
+
+app.use(
+  cors({
+    origin: "https://parentingcontrol.netlify.app",
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 app.use("/api/auth", require("./routes/authRoutes"));
